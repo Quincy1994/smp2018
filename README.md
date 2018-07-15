@@ -63,5 +63,5 @@ We use a simple but efficient voting mechanism for ensembling, and we can find i
 - `figure`: for saving the visualization of models
 
 # Acknowledgment
-Thanks for all the efforts of my teammates in `GDUFS-iiip` 
-We hope that more people will join in our labs: `Data Mining Lab in GDUFS(广外数据挖掘实验室）`
+</br> Thanks for all the efforts of my teammates in `GDUFS-iiip` 
+</br> We hope that more people will join in our labs: `Data Mining Lab in GDUFS(广外数据挖掘实验室）`
