@@ -10,7 +10,7 @@ More details see [SMP EUPT 2018](https://www.biendata.com/competition/smpeupt201
 * keras >= 1.2.0
 * gensim
 * scikit-learn
-you may need **keras.utils.vis_utils** for model visualization 
+</br> you may need **keras.utils.vis_utils** for model visualization 
 
 ## 2.Data Preprocessing
 - `my_utils/`: for data preprocessing
@@ -40,12 +40,12 @@ word_rcnn_char_cgru | 0.9910 | 0.9882
 word_cgru_char_rnn | 0.9887 | untested
 word_rnn_char_cgru | 0.9899 | untested
 word_rnn_char_cnn | 0.9897 | 0.9862
-word_char_rcnn | 0.9894 | 0.9984
+word_char_rcnn | 0.9894 | 0.9884
 
 * Note that rcnn comes from `A Hybrid Framework for Text Modeling with Convolutional RNN` while cgru comes from `A C-LSTM Neural Network for Text Classfication`
 
-The source codes derives from https://github.com/fuliucansheng/360
-We use `model` to create the architectures of models, and use `train` to train them
+</br> The source codes derives from https://github.com/fuliucansheng/360
+</br> We use `model` to create the architectures of models, and use `train` to train them
 
 ## 4.Ensemble
 We use a simple but efficient voting mechanism for ensembling, and we can find it in `evaluate/predict`
