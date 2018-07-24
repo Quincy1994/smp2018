@@ -48,7 +48,9 @@ word_char_rcnn | 0.9894 | 0.9884
 </br> We use `model` to create the architectures of models, and use `train` to train them
 
 ## 4.Ensemble
-We use a simple but efficient voting mechanism for ensembling, and we can find it in `evaluate/predict`
+</br> We use LightGBM for ensemble combined 12 models and extra statistical features, which is in ensemble, more details seen in https://github.com/TFknight/SMP-2018-Ensemble-Guide
+</br> In test dataset, we only adopt a simple but efficient voting mechanism for ensembling, which is in `evaluate/predict`
+
 
 ## 5.Main files
 - `my_utils/`: for data preprocessing
